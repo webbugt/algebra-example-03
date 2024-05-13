@@ -13,11 +13,25 @@
         <form id="main">
           <div class="kutija naziv">
             <label for="naziv">Naziv</label>
-            <input type="text" name="naziv" id="naziv" />
+            <input
+              type="text"
+              name="naziv"
+              id="naziv"
+              placeholder="ime zadatka"
+              required
+            />
           </div>
           <div class="kutija ocjena">
             <label for="ocjena">Ocjena</label>
-            <input type="number" name="ocjena" id="ocjena" />
+            <input
+              type="number"
+              name="ocjena"
+              id="ocjena"
+              min="0"
+              max="10"
+              placeholder="5"
+              required
+            />
           </div>
 
           <button type="submit">Pohrani</button>
@@ -26,22 +40,6 @@
       <section class="kutija">
         <div class="zadatak">
           <p class="naziv">Ime Stavke - <i>9</i></p>
-          <p class="vrijeme">01.12.2024. 09:34</p>
-          <div class="kontrole-zadatak">
-            <button type="button" class="favorit">Dodaj u favorita</button>
-            <button type="button" class="obrisi">Obriši</button>
-          </div>
-        </div>
-        <div class="zadatak">
-          <p class="naziv">Primjer 21 - <i>2</i></p>
-          <p class="vrijeme">01.12.2024. 09:34</p>
-          <div class="kontrole-zadatak">
-            <button type="button" class="favorit">Dodaj u favorita</button>
-            <button type="button" class="obrisi">Obriši</button>
-          </div>
-        </div>
-        <div class="zadatak">
-          <p class="naziv">Ime Nečeg - <i>19</i></p>
           <p class="vrijeme">01.12.2024. 09:34</p>
           <div class="kontrole-zadatak">
             <button type="button" class="favorit">Dodaj u favorita</button>
