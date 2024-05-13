@@ -1,0 +1,7 @@
+.primjer-obrub {
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+}
