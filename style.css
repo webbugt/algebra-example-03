@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  padding: 50px 20px;
+  max-width: 800px;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+section.unos {
+  background-color: #ddd
+}
+
+section.unos label {
+  font-weight: 900;
+  font-size: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+form#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 18px;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+section.unos div.kutija {
+  display: flex;
+  flex-direction: column;
+}
+
+section.unos div.kutija input {
+  background: #ddd;
+  border: solid 2px #aaa;
+  height: 30px
+}
+
+section.unos div.kutija.naziv {
+  flex: 1 1 60%;
+}
+
+section.unos div.kutija.ocjena input {
+  width: 80px
+}
+
+section.unos button {
+  height: 30px;
+  width: 220px;
+  font-weight: 700;
+  font-size: 0.8em;
+  color: white;
+  background: black;
+  border: none;
+  transition: background 200ms ease-in-out;
+}
+
+section.unos button:hover {
+  background: #222;
+}
+
+
+section.unos button:focus  {
+  background: #444;
+}
+
+.zadatak {
+  padding: 10px;
+  border-bottom: solid 1px #444;
+}
+
+.zadatak .naziv {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0.2em 0;
+}
+
+
+.zadatak .vrijeme {
+  font-weight: 200;
+  font-size: 0.8em;
+  margin: 0.2em 0;
+  margin-bottom: 0.4em;
+  opacity: 0.9;
+}
+
+.zadatak.favorit {
+  background-color: #eef;
+}
+
+.zadatak button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 200ms;
+}
+
+.zadatak button:hover {
+  color: darkblue;
+}
+
+
+.zadatak button:focus {
+  color: darksla      teblue;
+}
+
+.zadatak .kontrole-zadatak {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end
+}
+
